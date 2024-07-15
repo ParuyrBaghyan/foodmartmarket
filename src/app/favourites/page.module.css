@@ -1,0 +1,25 @@
+.favourite_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.to_center {
+  padding-top: 5rem;
+  width: 75%;
+  color: #464646;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+
+.favourite_products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}

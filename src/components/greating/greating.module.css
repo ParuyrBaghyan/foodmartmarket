@@ -1,0 +1,48 @@
+.greating {
+  width: 75%;
+  height: auto;
+  background: transparent
+    linear-gradient(
+      180deg,
+      #9bd8d0 0%,
+      #abe7df 29%,
+      #ace8e0 37%,
+      #b0ece4 47%,
+      #b1ede3 55%,
+      #b0ece2 69%,
+      #a8e4dc 100%
+    )
+    0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contnet_box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.contnet_box h1 {
+  color: #104a40;
+  width: 68%;
+  letter-spacing: 3px;
+}
+
+.contnet_box span {
+  width: 85%;
+  color: #19231D;
+  letter-spacing: 1px;
+}
+
+.contnet_box button {
+  width: 25%;
+  padding: 13px 30px;
+  color: #104a40;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 27px #00000014;
+}

@@ -1,0 +1,452 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/cart/page.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.page_cart_page__o3ZhU {
+  width: 100%;
+  display: flex;
+  min-height: 500px;
+  justify-content: center;
+}
+
+.page_cart_page_center__zJDlC {
+  padding-top: 5rem;
+  width: 75%;
+  color: #464646;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+
+.page_main_container__td3Fm{
+  display: flex;
+  gap: 3rem;
+}
+
+.page_products_container__FRZlq {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page_order__RMoXU{
+  width: 23%;  
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/UI/cart-product/cartProduct.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.cartProduct_cart_product_container__4TfpR {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 30px 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  gap: 1rem;
+}
+
+.cartProduct_top_line__S7ch_ {
+  display: flex;
+  justify-content: end;
+  gap:3rem;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+}
+
+.cartProduct_top_line__S7ch_ p:nth-child(1) {
+  color: #549e34;
+  cursor: pointer;
+}
+
+.cartProduct_top_line__S7ch_ p:nth-child(2) {
+  color: #ff0046;
+  cursor: pointer;
+}
+
+.cartProduct_content__3g32U {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartProduct_content__3g32U > span:nth-child(1){
+    display: flex; 
+    width: 45%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cartProduct_name_box__mA0Ry {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartProduct_name_box__mA0Ry p:nth-child(1) {
+  color: #bfbfbf;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.cartProduct_name_box__mA0Ry p:nth-child(2) {
+  font-size: 15px;
+
+  color: #464646;
+}
+
+.cartProduct_price_box__fS00V {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cartProduct_price_box__fS00V del {
+  color: #bfbfbf;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.cartProduct_price_box__fS00V p {
+  color: #ff4f00;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+
+.cartProduct_quantity_box__0LYv7{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.cartProduct_quantity_box__0LYv7 > span {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .cartProduct_quantity_box__0LYv7 > span button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .cartProduct_quantity_box__0LYv7 > span > span{
+    font-size: 13px;
+  }
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/order box/orderBox.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.orderBox_order_container__XBgg8 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 25px #00000026;
+  height: auto;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.orderBox_box__tnphT span{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.orderBox_title_line__m5O0U {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.orderBox_title_line__m5O0U p:nth-child(1) {
+  color: #979797;
+}
+
+.orderBox_title_line__m5O0U p:nth-child(2) {
+  color: #549e34;
+  cursor: pointer;
+}
+
+
+
+.orderBox_amount__JNbsZ{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.orderBox_amount__JNbsZ p{
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #979797;
+}
+
+.orderBox_amount__JNbsZ>span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.orderBox_order_container__XBgg8>span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.orderBox_order_container__XBgg8>button{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #549e34;
+    padding: 20px 0px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.orderBox_order_container__XBgg8>span:nth-last-child(1){
+
+    /* width: 65%; */
+    color: red;
+    font-size: 12px;
+
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/change-delivery/changeDelivery.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+.changeDelivery_time_delivery_modal_container__GptUK {
+    width: 100%;
+    height: 100vh;
+    background-color: #0000007d;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .changeDelivery_time_delivery_div__hPtlL {
+    width: 45%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 3rem;
+  }
+
+  .changeDelivery_time_delivery_div__hPtlL>p{
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .changeDelivery_data_field___oYzT{
+        width: 100%;
+        color: #949494;
+        font-size: 10px;
+        display: flex;
+        gap: 1rem;
+  }
+
+  .changeDelivery_data_field___oYzT span{
+    width: 50%;
+  }
+
+  .changeDelivery_data_field___oYzT input {
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 12px 0px;
+    width: 97%;
+    padding-left: 10px;
+  }
+
+  .changeDelivery_buttons__AKKFA{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .changeDelivery_buttons__AKKFA button:nth-child(1){
+    background-color: transparent;
+    border-radius:50px;
+    padding: 17px 0px;
+    border:none;
+    color:black;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 30%;
+    cursor: pointer;
+}
+
+  .changeDelivery_buttons__AKKFA button:nth-child(2){
+    background-color: #549E34;
+    border-radius:50px;
+    padding: 17px 0px;
+    border:none;
+    color:white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 30%;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/change-address/changeAddress.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+.changeAddress_address_delivery_modal_container__qmaXz {
+  width: 100%;
+  height: 100vh;
+  background-color: #0000007d;
+  position: fixed;
+  z-index: 1000;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.changeAddress_address_delivery_div__t4lEv {
+  width: 45%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  gap: 3rem;
+}
+
+.changeAddress_top_line__dduH_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.changeAddress_top_line__dduH_ > p {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.changeAddress_top_line__dduH_ button{
+    background-color: #549E34;
+    border-radius:50px;
+    padding: 15px 0px;
+    border:none;
+    color:white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 25%;
+}
+
+
+.changeAddress_addresses__zUnzg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+
+
+.changeAddress_buttons__2jW__ {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.changeAddress_buttons__2jW__ button:nth-child(1) {
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 17px 0px;
+  border: none;
+  color: black;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 30%;
+  cursor: pointer;
+}
+
+.changeAddress_buttons__2jW__ button:nth-child(2) {
+  background-color: #549e34;
+  border-radius: 50px;
+  padding: 17px 0px;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 30%;
+}
+
+
+
+.changeAddress_card_box__d0N92 {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 11px #373a6524;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px 17px;
+    gap: 1rem;
+  }
+  
+  .changeAddress_card_box__d0N92 > span {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+  }
+
+  .changeAddress_card_box__d0N92>p{
+    color: #949494;
+    font-size: 14px;
+    letter-spacing: .8px;
+  }
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/confirm-order/confirmOrder.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.confirmOrder_confirm_container__3m1Lc {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 11px;
+  padding: 30px 20px;
+}
+
+.confirmOrder_data_field__KGTNf{
+    width: 100%;
+    color: #949494;
+    font-size: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.confirmOrder_data_field__KGTNf span{
+width: 50%;
+}
+
+.confirmOrder_data_field__KGTNf input {
+border: 1px solid #c9c9c9;
+border-radius: 10px;
+padding: 12px 0px;
+width: 97%;
+padding-left: 10px;
+}

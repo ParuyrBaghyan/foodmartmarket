@@ -1,0 +1,338 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/greating/greating.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.greating_greating__2IvFm {
+  width: 75%;
+  height: auto;
+  background: transparent
+    linear-gradient(
+      180deg,
+      #9bd8d0 0%,
+      #abe7df 29%,
+      #ace8e0 37%,
+      #b0ece4 47%,
+      #b1ede3 55%,
+      #b0ece2 69%,
+      #a8e4dc 100%
+    )
+    0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.greating_contnet_box__OTMOR {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.greating_contnet_box__OTMOR h1 {
+  color: #104a40;
+  width: 68%;
+  letter-spacing: 3px;
+}
+
+.greating_contnet_box__OTMOR span {
+  width: 85%;
+  color: #19231D;
+  letter-spacing: 1px;
+}
+
+.greating_contnet_box__OTMOR button {
+  width: 25%;
+  padding: 13px 30px;
+  color: #104a40;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 27px #00000014;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/line-of-products/lineOfProducts.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.lineOfProducts_main_container__2Rphe {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.lineOfProducts_main_container__2Rphe P {
+  color: #464646;
+  font-size: 20px;
+}
+
+.lineOfProducts_products_container__G4qW4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_home_page__z4BY3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 3.5rem;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/aboutPoint/aboutPoints.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.aboutPoints_greating___hq8J {
+  width: 75%;
+  height: auto;
+  background: #db003c 0% 0% no-repeat padding-box;
+  display: flex;
+  border-radius: 15px;
+  padding: 20px 0px;
+}
+
+.aboutPoints_contnet_box__jR1X0 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.aboutPoints_contnet_box__jR1X0 h1 {
+  color: #ffffff;
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+.aboutPoints_contnet_box__jR1X0 span {
+  width: 85%;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.aboutPoints_contnet_box__jR1X0 button {
+  width: 40%;
+  padding: 13px 30px;
+  color: #104a40;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 27px #00000014;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/mobile-app/mobileApp.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.mobileApp_mobileApp_container__syC_h {
+  width: 75%;
+  height: auto;
+  border: 15px;
+  display: flex;
+
+}
+.mobileApp_mobile_images__NTecF {
+  background-image: url(/_next/static/media/green-fon.8698658d.svg);
+  width: 40%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.mobileApp_image_box__f8YJ_ {
+  position: relative;
+  height: 400px;
+}
+
+.mobileApp_small_img__MGFzi {
+  position: absolute;
+  bottom: -34%;
+  left: 14%;
+}
+
+.mobileApp_big_img__YIIJS {
+  position: absolute;
+  bottom: -28%;
+  left: 35%;
+  z-index: 2;
+}
+
+.mobileApp_content__kbv7w {
+  background-color: #eff5f1;
+  width: 60%;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mobileApp_content__kbv7w h2 {
+  color: #676767;
+}
+
+.mobileApp_content__kbv7w h1 {
+  color: #104a40;
+}
+
+.mobileApp_content__kbv7w span:nth-child(3){
+    display: flex;
+    width: 88%;
+    color: #19231D;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.mobileApp_stores__ZC2XM{
+    display: flex;
+    align-items: center;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/UI/product/product.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.product_main_product_container__cbvl_ {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 11px;
+  height: 216px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.product_redHeart__930k2 {
+  font-size: 18px;
+  color: red;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  z-index: 10;
+  transition: .3s
+}
+
+.product_image_box__rD_PU {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_main_product_container__cbvl_ img {
+  width: 50%;
+  height: auto;
+}
+
+.product_product_content__HxbSt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.product_product_content__HxbSt span {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_product_content__HxbSt > span:nth-child(1) > :nth-child(1) {
+  color: #bfbfbf;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.product_product_content__HxbSt > span:nth-child(1) > :nth-child(2) {
+  font-size: 13px;
+}
+.product_product_content__HxbSt > span:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_product_content__HxbSt > span:nth-child(2) > :nth-child(1) {
+  color: #bfbfbf;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.product_product_content__HxbSt > span:nth-child(2) > :nth-child(1) > :nth-child(2) {
+  color: #ff4f00;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.product_details__0Tm4p {
+  width: 30px;
+  height: 30px;
+  background-color: #559f35;
+  border-radius: 50%;
+  position: relative;
+}
+
+.product_details__0Tm4p > span {
+  border: 1px solid white;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product_details__0Tm4p span:nth-child(1) {
+  transform: translate(-50%, -50%) rotateZ(90deg);
+}
+
+
+
+.product_product_link__gCh3q{
+  width: 95%;
+  height: 95%;
+  position: absolute;
+}

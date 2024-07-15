@@ -1,0 +1,103 @@
+
+
+.catalog_drop_down_container {
+  width: 75%;
+  height: 370px;
+  background-color: #ffffff;
+  box-shadow: 0px 25px 40px #00000024;
+  position: absolute;
+  top: 7.77rem;
+  transform: rotateX(90deg);
+  transform-origin: top;
+  display: flex;
+  transition: .3s;
+}
+
+.catalog_drop_down_container_wrapper{
+  width: 75%;
+}
+
+
+.catalog_drop_down_container_open {
+  transform: rotateX(0deg);
+}
+
+/* catalog sections--------------------------------------------------- */
+
+.catalog_section {
+  width: 23%;
+  height: 100%;
+  background-color: #f8f8f8;
+  overflow: auto;
+}
+.catalog_section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog_section ul li {
+  padding: 10px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.catalog_section ul li:hover {
+  background-color: #efefef;
+}
+
+.catalog_section::-webkit-scrollbar {
+  width: 3px; /* Width of the vertical scrollbar */
+  height: 3px; /* Height of the horizontal scrollbar */
+}
+
+.catalog_section::-webkit-scrollbar-track {
+  background: transparent; /* Background of the scrollbar track */
+}
+
+.catalog_section::-webkit-scrollbar-thumb {
+  background: #bbbbbb; /* Color of the scrollbar handle */
+  border-radius: 4px; /* Rounded corners of the handle */
+}
+
+/* subsections-------------------------------------------------- */
+
+.catalog_sub_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 35px;
+}
+
+.catalog_sub_section_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.catalog_sub_section_top span {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 7px #00000029;
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  padding: 18px 15px;
+  width: auto;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.catalog_sub_section_bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1.6rem;
+  width: 100%;
+}
+
+.catalog_sub_section_bottom img{
+  cursor: pointer;
+}

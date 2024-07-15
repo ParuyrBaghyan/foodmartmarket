@@ -1,0 +1,42 @@
+.greating {
+  width: 75%;
+  height: auto;
+  background: #db003c 0% 0% no-repeat padding-box;
+  display: flex;
+  border-radius: 15px;
+  padding: 20px 0px;
+}
+
+.contnet_box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.contnet_box h1 {
+  color: #ffffff;
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+.contnet_box span {
+  width: 85%;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.contnet_box button {
+  width: 40%;
+  padding: 13px 30px;
+  color: #104a40;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 27px #00000014;
+}

@@ -1,0 +1,97 @@
+.info_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+  }
+  .center_container {
+    width: 75%;
+    display: flex;
+    gap: 5rem;
+    padding-top: 6rem;
+  }
+  
+  .info_section_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 70%;
+  }
+  
+  .top_line{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .top_line p {
+    color: #464646;
+    font-size: 18px;
+    letter-spacing: 1px;
+  
+  }
+  
+  .top_line button {
+      background-color: #549e34;
+      color: white;
+      padding: 15px 15px;
+      letter-spacing: 1px;
+      border: none;
+      border-radius: 50px;
+      font-size: 12px;
+      cursor: pointer;
+      width: 30%;
+    }
+    
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .card_box {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 11px #373a6524;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px 17px;
+    gap: 1rem;
+  }
+  
+  .card_box > span {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+  }
+
+  .card_box>p{
+    color: #949494;
+    font-size: 14px;
+    letter-spacing: .8px;
+  }
+  
+  .bottom_line {
+    display: flex;
+    font-size: 13px;
+  }
+  
+  .delete {
+    color: #ff0045;
+    cursor: pointer;
+    
+    padding-left: 14px
+  }
+  .default {
+    color: #549e34;
+    cursor: pointer;
+    padding-right: 14px;
+    border-right: .5px solid #cacaca;
+  }
+  
+
+  .place{
+    display: flex;
+    gap: .7rem;
+  }
